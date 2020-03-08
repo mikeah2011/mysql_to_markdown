@@ -6,10 +6,10 @@ error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_WARNING);
 use Medoo\Medoo;
 
 $config = [
-    'db'   => trim($_GET['name']),
-    'host' => trim($_GET['host']),
-    'user' => trim($_GET['user']),
-    'pwd'  => trim($_GET['pwd']),
+    'db'   => trim($_GET['name'] ?? ''),
+    'host' => trim($_GET['host'] ?? '127.0.0.1'),
+    'user' => trim($_GET['user'] ?? 'root'),
+    'pwd'  => trim($_GET['pwd'] ?? 'root'),
 ];
 $flag = false;
 if ($config['db']) {
