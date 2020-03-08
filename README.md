@@ -1,7 +1,21 @@
 # mysql_to_markdown
 mysql数据库转成markdown格式，只要输入数据库信息，所有表字段生成markdown
 
-### 打开index.php 请求如下。请正确填写数据库信息
+## 环境要求
+* Web服务：nginx或Apache
+* 版本控制：Git
+* 依赖包：composer
+* PHP: ^5.6
+
+## USED
+
+### 安装
+`git clone https://github.com/Michael201709/mysql_to_markdown.git`
+
+### 初始化
+`composer update`
+
+### PHP环境下访问index.php，填写数据库信息
 
 ![image](https://user-images.githubusercontent.com/39790804/42554646-3b77aaca-8518-11e8-976c-52358da4feee.png)
 
