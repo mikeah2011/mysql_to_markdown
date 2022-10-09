@@ -11,7 +11,7 @@ mysql数据库转成markdown格式，只要输入数据库信息，所有表字�
 ## USED
 
 ### 安装
-`git clone https://github.com/Michael201709/mysql_to_markdown.git`
+`git clone https://github.com/mikeah2011/mysql_to_markdown.git`
 
 ### 初始化
 `composer update`
